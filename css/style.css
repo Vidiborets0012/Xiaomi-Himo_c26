@@ -158,3 +158,29 @@ body {
 .slick-active button {
   background-color: #ff4040;
 }
+
+.bike-list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike-list-item {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 58px;
+}
+
+.bike-list-num {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bike-list-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: auto 0;
+}
