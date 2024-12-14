@@ -220,3 +220,61 @@ body {
 .description-item-text {
   max-width: 450px;
 }
+
+/* ************** CHARACTERISTICS ******************* */
+
+.characteristics {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.characteristics-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+.characteristics-inner {
+  display: flex;
+}
+
+.characteristics-img {
+  align-self: center;
+}
+
+.characteristics-items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.characteristics-list + .characteristics-list {
+  padding-top: 31px;
+}
+
+.characteristics-list-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #131313;
+  padding: 2px 0 3px;
+  margin-bottom: 10px;
+}
+
+.characteristics-line {
+  display: flex;
+}
+
+.characteristics-line + .characteristics-line {
+  padding-top: 5px;
+}
+
+.characteristics-name {
+  flex-basis: 285px;
+  padding-right: 20px;
+}
+
+.characteristics-descr {
+  flex-basis: 285px;
+}
