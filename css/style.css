@@ -81,7 +81,8 @@ body {
 /* *************** HERO *************** */
 
 .hero {
-  padding: 50px 0 75px;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 .hero-inner {
@@ -92,4 +93,37 @@ body {
 
 .hero-bike-slider {
   flex-basis: 630px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #131313;
+  margin: 72px 0 5px;
+}
+
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #6f6f6f;
+  margin: 0 0 60px;
+}
+
+.hero-content-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.hero-content-link {
+  margin-top: 80px;
+  display: inline-block;
+  padding: 28px 81px;
+  background-color: #131313;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
 }
