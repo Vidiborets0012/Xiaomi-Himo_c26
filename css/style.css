@@ -278,3 +278,19 @@ body {
 .characteristics-descr {
   flex-basis: 285px;
 }
+
+/* *************** SLIDER ******************** */
+
+.slider {
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.slider-items .slick-dots {
+  top: 0;
+  left: 0;
+}
+
+.slider-item {
+  padding-left: 50px;
+}
