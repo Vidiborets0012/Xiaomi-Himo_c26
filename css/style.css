@@ -120,7 +120,7 @@ body {
 .hero-content-link {
   margin-top: 80px;
   display: inline-block;
-  padding: 28px 81px;
+  padding: 28px 62px 28px 81px;
   background-color: #131313;
   font-size: 20px;
   line-height: 24px;
@@ -293,4 +293,143 @@ body {
 
 .slider-item {
   padding-left: 50px;
+}
+
+/* *************** PRICE ******************** */
+
+.price {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.price-inner {
+  position: relative;
+}
+
+.form {
+  max-width: 420px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.form-text {
+  max-width: 298px;
+  margin-bottom: 29px;
+}
+
+.form-input-name,
+.form-input-tel {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #131313;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form-input-name::placeholder,
+.form-input-tel::placeholder,
+.form-text-choice {
+  color: #6f6f6f;
+  opacity: 0.5;
+}
+
+.form-text-choice {
+  margin-bottom: 10px;
+}
+
+/* ***** customization ******** */
+
+.form-label-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.form-label + .form-label {
+  margin-left: 23px;
+}
+
+.form-input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form-input-radio:checked + .form-bike {
+  display: block;
+}
+
+.form-bike {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.form-bike-price {
+  font-size: 32px;
+  line-height: 39px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 220px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ff4040;
+  border-radius: 100%;
+  transform: translateX(-50%);
+}
+
+.form-bike-price::after {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  border: 1px solid #ff4040;
+  border-radius: 100%;
+  top: 12px;
+  left: 0;
+}
+
+.form-radio-stile {
+  border-radius: 30px;
+  width: 80px;
+  height: 12px;
+}
+
+.form-radio-stile-grey {
+  background-color: #6f6f6f;
+}
+
+.form-radio-stile-white {
+  background-color: #ffffff;
+  border: 1px solid #6f6f6f;
+}
+
+.form-radio-stile-red {
+  background-color: #ff4040;
+}
+
+/* **************************** */
+
+.form-btn {
+  padding: 28px 62px 28px 81px;
+  background-color: #131313;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
