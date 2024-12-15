@@ -500,7 +500,7 @@ body {
 
   .hero {
     padding-top: 0;
-    padding-bottom: 75px;
+    padding-bottom: 32px;
   }
 
   .hero-inner {
@@ -521,6 +521,23 @@ body {
 
   .hero-bike-slider {
     max-width: 100%;
+  }
+
+  .description-img {
+    display: none;
+  }
+
+  .description-list {
+    flex-basis: 100%;
+  }
+
+  .description-item-text {
+    max-width: 100%;
+  }
+
+  .descriotion {
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 }
 
@@ -577,6 +594,10 @@ body {
 
   .menu-list-item {
     padding: 25px 20px;
+  }
+
+  .description-item + .description-item {
+    padding-top: 24px;
   }
 }
 
