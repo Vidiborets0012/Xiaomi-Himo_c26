@@ -380,3 +380,17 @@ body {
 .form-radio-stile-red {
   background-color: #ff4040;
 }
+
+/* **************************** */
+
+.form-btn {
+  padding: 28px 81px;
+  background-color: #131313;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
