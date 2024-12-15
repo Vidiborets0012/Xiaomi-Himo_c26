@@ -120,7 +120,7 @@ body {
 .hero-content-link {
   margin-top: 80px;
   display: inline-block;
-  padding: 28px 81px;
+  padding: 28px 62px 28px 81px;
   background-color: #131313;
   font-size: 20px;
   line-height: 24px;
@@ -423,7 +423,7 @@ body {
 /* **************************** */
 
 .form-btn {
-  padding: 28px 81px;
+  padding: 28px 62px 28px 81px;
   background-color: #131313;
   font-size: 20px;
   line-height: 24px;
