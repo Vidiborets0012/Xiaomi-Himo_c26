@@ -358,6 +358,10 @@ body {
   clip: rect(0 0 0 0);
 }
 
+.form-input-radio:checked + .form-bike {
+  display: block;
+}
+
 .form-bike {
   display: none;
 }
