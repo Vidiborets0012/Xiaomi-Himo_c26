@@ -302,6 +302,10 @@ body {
   padding-bottom: 50px;
 }
 
+.price-inner {
+  position: relative;
+}
+
 .form {
   max-width: 420px;
 }
@@ -364,6 +368,9 @@ body {
 
 .form-bike {
   display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .form-radio-stile {
