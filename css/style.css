@@ -539,6 +539,11 @@ body {
     padding-top: 36px;
     padding-bottom: 36px;
   }
+
+  .slider-img {
+    object-fit: cover;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -628,6 +633,14 @@ body {
   .description-item + .description-item {
     padding-top: 24px;
   }
+
+  .slider-img {
+    height: 250px;
+  }
+
+  .slider-item {
+    padding-left: 10px;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -646,6 +659,10 @@ body {
   .hero-content-link {
     padding: 15px;
     letter-spacing: 0.9em;
+  }
+
+  .slider {
+    display: none;
   }
 }
 
