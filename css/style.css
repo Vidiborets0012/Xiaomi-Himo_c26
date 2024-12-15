@@ -492,3 +492,54 @@ body {
 .footer-contacts-img {
   margin-right: 10px;
 }
+
+@media screen and (max-width: 991px) {
+  .menu {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-inner {
+    display: block;
+  }
+
+  .logo-img {
+    margin: 0 auto;
+  }
+  .menu {
+    margin-top: 36px;
+  }
+
+  .menu-list {
+    justify-content: space-evenly;
+  }
+
+  .menu-list-item + .menu-list-item {
+    margin-left: 0;
+  }
+
+  .menu-list-item {
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu {
+    margin-top: 20px;
+  }
+
+  .menu-list {
+    justify-content: space-between;
+  }
+
+  .menu-list-item {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu-list-item {
+    font-size: 12px;
+  }
+}
