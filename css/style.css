@@ -338,3 +338,45 @@ body {
 .form-text-choice {
   margin-bottom: 10px;
 }
+
+/* ***** customization ******** */
+
+.form-label-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.form-label + .form-label {
+  margin-left: 23px;
+}
+
+.form-input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form-bike {
+  display: none;
+}
+
+.form-radio-stile {
+  border-radius: 30px;
+  width: 80px;
+  height: 12px;
+}
+
+.form-radio-stile-grey {
+  background-color: #6f6f6f;
+}
+
+.form-radio-stile-white {
+  background-color: #ffffff;
+  border: 1px solid #6f6f6f;
+}
+
+.form-radio-stile-red {
+  background-color: #ff4040;
+}
