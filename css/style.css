@@ -545,6 +545,35 @@ body {
   .menu {
     margin-right: 0;
   }
+
+  .characteristics {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .characteristics-inner {
+    flex-wrap: wrap;
+  }
+
+  .characteristics-img {
+    order: -1;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .characteristics-items {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .characteristics-name {
+    flex-basis: 50%;
+  }
+
+  .characteristics-descr {
+    flex-basis: 50%;
+  }
 }
 
 @media screen and (max-width: 680px) {
