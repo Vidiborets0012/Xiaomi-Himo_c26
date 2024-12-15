@@ -433,3 +433,48 @@ body {
   border: none;
   cursor: pointer;
 }
+
+/* **************** FOOTER ******************** */
+
+.footer {
+  background-color: #131313;
+  margin-top: 50px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer-link {
+  text-transform: lowercase;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: underline;
+}
+
+.footer-social-link + .footer-social-link {
+  margin-left: 26px;
+}
+
+.footer-contacts {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer-contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contacts-link + .footer-contacts-link {
+  margin-top: 10px;
+}
+
+.footer-contacts-img {
+  margin-right: 10px;
+}
