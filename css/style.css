@@ -707,6 +707,23 @@ body {
   .form-bike-price::after {
     display: none;
   }
+
+  .footer-inner {
+    display: block;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .footer-social {
+    padding: 15px 0;
+  }
+
+  .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 460px) {
